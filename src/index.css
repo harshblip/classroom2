@@ -66,7 +66,7 @@ sn {
 @media only screen and (max-width: 600px) {
   .grid-container {
     margin-bottom: 0rem;
-    margin-top: -12rem;
+    margin-top: -10rem;
     margin-left: 2rem;
     grid-template-columns: repeat(5, 1fr);
   }
