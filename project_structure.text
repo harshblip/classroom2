@@ -1,0 +1,19 @@
+- src
+  - App.css
+  - App.js
+  - App.test.js
+  - components
+    - Content.jsx
+    - Header.jsx
+    - Sidebar.jsx
+    - Studentsoncall.jsx
+    - Youtube.jsx
+  - images
+    - study01.jpg
+    - study02.jpg
+  - index.css
+  - index.js
+  - reportWebVitals.js
+  - setupTests.js
+  - students.json
+- tailwind.config.js

@@ -35,13 +35,12 @@ font-pop {
 
 .video-responsive {
   padding-bottom: 56.25%;
-  position: relative;
   height: 0;
+  right: 0;
 }
 
 .video-responsive iframe {
   right: 0;
-  height: 50vw;
-  width: 80vw;
-  position: absolute;
+  height: 25vw;
+  width: 40vw;
 }

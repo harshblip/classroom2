@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from './Header'
-import YouTube from 'react-youtube'
+import YouTube from './Youtube'
+import Studentsoncall from './Studentsoncall'
 
 export default function Content() {
     return (
-        <div className='flex flex-col'>
+        <div className='flex'>
             <Header />
-            <div>
-                {/* <Students /> */}
+            <div className = 'right-0'>
+                <Studentsoncall />
                 <YouTube />
             </div>
         </div>
