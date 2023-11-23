@@ -44,3 +44,7 @@ font-pop {
   height: 25vw;
   width: 40vw;
 }
+
+.fw {
+  font-weight: 800;
+}
