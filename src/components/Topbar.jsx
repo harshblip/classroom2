@@ -18,23 +18,23 @@ export default function Topbar() {
                 <img src={whitboard} alt="whiteboard" className='md:w-7 md:h-7 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-4' />
                 <p className='ml-2 sm:-mt-2 md:-mt-0'> Whiteboard </p>
             </button>
-            <button className='flex md:-mt-2'>
+            <button className='flex sm:-mt-2 md:-mt-2'>
                 <div className='flex bt'>
-                    <img src={video} alt="video" className=' md:w-7 md:h-7 sm:w-10 sm:h-10 md:mt-1   ml-5 sm:mt-1' />
-                    <p className='ml-2 sm:-mt-2 md:mt-2 text-black'> Videos </p>
+                    <img src={video} alt="video" className=' md:w-7 md:h-7 sm:w-10 sm:h-10 md:mt-1   ml-5 sm:mt-0' />
+                    <p className='ml-2 sm:mt-2 md:mt-2 text-black'> Videos </p>
                 </div>
             </button>
             <button className='flex md:-mt-2'>
-                <img src={slideshow} alt="slideshow" className='md:w-7 md:h-7 md:-mt-1 sm:w-10 sm:h-10 sm:-mt-2' />
+                <img src={slideshow} alt="slideshow" className='md:w-7 md:h-7 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-4' />
                 <p className='ml-2 sm:-mt-2 md:-mt-0'> Slideshow </p>
             </button>
             <button className='flex md:-mt-2'>
-                <img src={document} alt="document" className='md:w-7 md:h-7 md:-mt-1 sm:w-10 sm:h-10 sm:-mt-2' />
+                <img src={document} alt="document" className='md:w-7 md:h-7 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-4' />
                 <p className='ml-2 sm:-mt-2 md:-mt-0'> Documents </p>
             </button>
             <button className='flex md:-mt-2'>
-                <img src={file} alt="file" className='absolute md:w-8 md:h-8 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-2' />
-                <img src={video2} alt="document" className='ml-[0.5rem] mt-2 md:w-4 md:h-4 sm:w-10 sm:h-10 md:mt-[0.3rem]' />
+                <img src={file} alt="file" className='absolute md:w-7 md:h-7 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-4' />
+                <img src={video2} alt="document" className='ml-[0.5rem] mt-2 md:w-4 md:h-4 sm:w-6 sm:h-6 md:mt-[0.3rem] sm:-mt-1' />
                 <p className='ml-2 mr-16 sm:-mt-2 md:-mt-0'> Doc.Cam </p>
             </button>
         </div>
