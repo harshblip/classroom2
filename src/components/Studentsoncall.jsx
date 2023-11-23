@@ -7,8 +7,8 @@ export default function Studentsoncall() {
             <ul>
                 {studentsData.map(student => (
                     <li key={student.id}>
-                        <img src={student.image} alt={student.name}  className = ' md:h-32 rounded-xl absolute' />
-                        <p className = 'relative right-0'>{student.name}</p>
+                        <img src={student.image} alt={student.name}  className = ' md:h-32 rounded-xl  flex flex-wrap' />
+                        <p className = 'relative -mt-10  right-0'>{student.name}</p>
                     </li>
                 ))}
             </ul>

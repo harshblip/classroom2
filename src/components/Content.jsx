@@ -5,11 +5,16 @@ import Studentsoncall from './Studentsoncall'
 
 export default function Content() {
     return (
-        <div className='flex'>
-            <Header />
-            <div className = 'right-0'>
+        <div className='flex flex-col'>
+            <div className='absolute max-w-screen'>
+                <Header />
+            </div>
+            <div className='flex mt-[8rem] right-0 absolute'>
                 <Studentsoncall />
                 <YouTube />
+            </div>
+            <div>
+                heilo
             </div>
         </div>
     )
