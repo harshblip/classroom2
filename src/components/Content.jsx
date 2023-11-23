@@ -11,7 +11,7 @@ export default function Content() {
                 <Header />
                 <Topbar />
             </div>
-            <div className='flex mt-[12rem] '>
+            <div className='flex flex-wrap mt-[12rem] '>
                 <Studentsoncall />
                 <YouTube />
             </div>

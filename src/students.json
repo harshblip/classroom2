@@ -2,12 +2,12 @@
 [
     {
         "id": 1,
-        "name": "Riddhi",
+        "name": "Riddha",
         "image": "./images/study01.jpg"
     },
     {
         "id": 2,
-        "name": "Ms. Kalu",
+        "name": "Ms. Kaur",
         "image": "./images/study02.jpg"
     }
 ]

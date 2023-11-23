@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
 const Youtube = ({ embedId }) => (
     <div className="video-responsive">
         <iframe
-            width="160"
-            height="115"
+            className = 'sm:mt-5 md:mt-0 sm:ml-5 md:ml-16 sm:w-[18rem] md:h-[25rem] md:w-[45rem]'
             src="https://www.youtube.com/embed/8OgcHAv6Jvk?si=gFPMmyq3fbvzXcmj"
             title="YouTube video player"
             frameborder="0"
