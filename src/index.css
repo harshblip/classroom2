@@ -1,6 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+  transition: all;
+  transition-duration: 1000ms all;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Droid Sans', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +19,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg-white\/60 {
+  background-color: rgb(225, 223, 223);
+}
+
+font-pop {
+  font-family: 'Poppins', sans-serif;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.video-responsive {
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  right: 0;
+  height: 50vw;
+  width: 80vw;
+  position: absolute;
 }
