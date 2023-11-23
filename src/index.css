@@ -54,3 +54,11 @@ font-pop {
 sn {
   font-weight: 700;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 4rem;
+  margin-top: -1rem;
+  gap: 10px;
+}

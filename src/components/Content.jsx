@@ -3,6 +3,7 @@ import Header from './Header'
 import YouTube from './Youtube'
 import Studentsoncall from './Studentsoncall'
 import Topbar from './Topbar'
+import Media from './Media'
 
 export default function Content() {
     return (
@@ -11,12 +12,12 @@ export default function Content() {
                 <Header />
                 <Topbar />
             </div>
-            <div className='flex flex-wrap mt-[12rem] '>
+            <div className='flex flex-wrap mt-[10rem] '>
                 <Studentsoncall />
                 <YouTube />
             </div>
             <div className = 'absolute bottom-0'>
-                heilo
+                <Media />
             </div>
         </div>
     )

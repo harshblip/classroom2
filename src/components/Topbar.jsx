@@ -9,7 +9,7 @@ import classroom from '../icons/topbar/classroom.png';
 
 export default function Topbar() {
     return (
-        <div className='sm:space-x-32  md:space-x-10  font-monts mt-5 w-screen p-5 rounded-3xl flex flex-row overflow-auto  bg-[#ebeaea] text-slate-500 fw h-14 absolute text-sm'>
+        <div className='sm:space-x-32  md:space-x-10 sm:w-screen sm:mr-0 md:w-[80vw] font-monts mt-5 md:ml-16  p-5 rounded-3xl flex flex-row overflow-auto  bg-[#ebeaea] text-slate-500 fw h-14 absolute text-sm '>
             <button className='flex md:ml-16'>
                 <img src={classroom} alt="classroom" className='md:w-7 md:h-7 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-2' />
                 <p className='ml-2'> Classroom </p>
@@ -35,7 +35,7 @@ export default function Topbar() {
             <button className='flex'>
                 <img src={file} alt="file" className='absolute md:w-8 md:h-8 sm:w-10 sm:h-10 md:-mt-1 sm:-mt-2' />
                 <img src={video2} alt="document" className='ml-[0.5rem] mt-2 md:w-4 md:h-4 sm:w-10 sm:h-10 md:mt-[0.3rem]' />
-                <p className='ml-2'> Doc.Cam </p>
+                <p className='ml-2 mr-16'> Doc.Cam </p>
             </button>
         </div>
     )
