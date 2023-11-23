@@ -10,12 +10,12 @@ import Bell from '../icons/sidebar/notifBell.svg';
 
 export default function Sidebar() {
   return (
-    <div className='md:left-0 max-[640px]:top-0 bg-[#ebeaea] md:w-24 md:h-screen max-[640px]:w-screen max-[640px]:h-[5rem] flex md:flex-col sm:flex-row overflow-auto'>
+    <div className='md:left-0 max-[640px]:top-0 bg-[#ebeaea] md:w-24 md:h-screen max-[640px]:w-screen max-[640px]:h-[5rem]  flex md:flex-col sm:flex-row overflow-auto'>
       <img
         src={Logo}
         className='sm:mt-[0.1rem] md:mt-[0.7rem] ml-[0.5rem] md:w-15 md:h-15 sm:w-20 sm:h-20' alt="logo"
       />
-      <div className='-mt-8 flex md:flex-col sm:flex-row overflow-auto sm:ml-[1.5rem] md:ml-[0.5rem] sm:space-x-20 md:space-x-6 md:bg-transparent sm:bg-white-500'>
+      <div className='md:-mt-8 flex md:flex-col sm:flex-row overflow-auto sm:ml-[1.5rem] md:ml-[0.5rem] sm:space-x-20 md:space-x-6 md:bg-transparent sm:bg-white-500'>
         <button>
           <img
             src={graph}
